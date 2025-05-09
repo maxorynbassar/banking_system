@@ -1,0 +1,267 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: #00509e; /* Қанық көк */
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+nav ul {
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav a:hover {
+    color: #ffd700; /* Алтын түс */
+}
+
+/* Dropdown Menu */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #004080; /* Ашық көк */
+    min-width: 220px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    text-align: left;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #00509e;
+    color: #ffd700;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+main {
+    padding: 20px;
+    max-width: 900px;
+    margin: 20px auto;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+
+.hero {
+    text-align: center;
+    padding: 20px;
+    background-color: #eef;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+.hero h1 {
+    color: #00509e;
+}
+.hero-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
+.intro-text {
+    margin-bottom: 30px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-left: 5px solid #00509e;
+}
+
+.quick-links h2 {
+    text-align: center;
+    color: #00509e;
+    margin-bottom: 20px;
+}
+.link-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    text-decoration: none;
+    color: #333;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.1);
+}
+.card h3 {
+    color: #00509e;
+    margin-top: 0;
+}
+
+
+section h1, section h2, section h3 {
+    color: #00509e;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #00509e;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.stage {
+    background-color: #e9f5ff; /* Ашық көкшіл */
+    padding: 15px;
+    margin-bottom: 15px;
+    border-left: 5px solid #007bff; /* Ашық көк */
+    border-radius: 5px;
+}
+.stage h3 {
+    color: #0056b3; /* Қою көк */
+    margin-top:0;
+}
+
+.api-demo {
+    background: #eef;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.api-demo h3 {
+    margin-top: 0;
+}
+.api-demo button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+.api-demo button:hover {
+    background-color: #0056b3;
+}
+pre {
+    background: #2d2d2d; /* Қара фон */
+    color: #ccc; /* Ашық сұр мәтін */
+    padding: 15px;
+    border-radius: 5px;
+    overflow-x: auto;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.9em;
+    white-space: pre-wrap; /* Мазмұнның сыймағанда келесі жолға өтуі */
+    word-wrap: break-word; /* Сөздерді бөліп тасымалдау */
+}
+
+.fraud-scheme {
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+.fraud-scheme h3 {
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin: 0;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.fraud-scheme h3 .arrow {
+    transition: transform 0.3s ease;
+}
+.fraud-scheme h3.active .arrow {
+    transform: rotate(180deg);
+}
+.fraud-details {
+    padding: 10px;
+    display: none; /* Бастапқыда жасырулы */
+}
+.fraud-details p {
+    margin-bottom: 10px;
+}
+.fraud-details strong {
+    color: #d9534f; /* Қызыл түс */
+}
+
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #333;
+    color: #fff;
+    margin-top: 30px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+    .dropdown-content {
+        position: static;
+        box-shadow: none;
+        background-color: #00509e;
+    }
+    .link-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+    .card {
+        width: 90%;
+        margin-bottom: 15px;
+    }
+}
