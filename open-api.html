@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Open API & Open Banking</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <!-- index.html-дағы nav мазмұнын көшіріп қойыңыз -->
+            <ul>
+                <li><a href="index.html">Басты бет</a></li>
+                <li><a href="digitalization-basics.html">Цифрландыру негіздері</a></li>
+                <li><a href="kazakhstan-stages.html">Қазақстандағы кезеңдер</a></li>
+                <li class="dropdown">
+                    <a href="javascript:void(0)" class="dropbtn">Негізгі трендтер</a>
+                    <div class="dropdown-content">
+                        <a href="open-api.html">Open API & Open Banking</a>
+                        <a href="ai-blockchain.html">AI & Blockchain</a>
+                        <a href="digital-tenge.html">Цифрлық теңге</a>
+                        <a href="cybersecurity.html">Киберқауіпсіздік</a>
+                    </div>
+                </li>
+                <li><a href="international-experience.html">Халықаралық тәжірибе</a></li>
+                <li><a href="recommendations.html">Ұсыныстар</a></li>
+                <li><a href="about-project.html">Жоба туралы</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h1>Open API және Open Banking Қазақстанда</h1>
+            <p>Open API (Ашық бағдарламалау интерфейсі) және Open Banking тұжырымдамасы банктерге өздерінің деректері мен қызметтерін үшінші тарап әзірлеушілеріне қауіпсіз түрде ұсынуға мүмкіндік береді. Бұл инновациялық қаржылық өнімдер мен қызметтерді құруға ықпал етеді.</p>
+
+            <h2>Негізгі мақсаттар (2.2-бөлімнен):</h2>
+            <ul>
+                <li>Қаржы нарығындағы бәсекелестікті дамыту.</li>
+                <li>Инновацияларды ынталандыру.</li>
+                <li>Клиенттер үшін қызметтердің сапасы мен қолжетімділігін арттыру.</li>
+                <li>Қауіпсіз ортаны қамтамасыз ету.</li>
+            </ul>
+
+            <h2>Open API экожүйесінің қатысушылары (Кесте 16-дан):</h2>
+             <table>
+                <thead>
+                    <tr>
+                        <th>№</th>
+                        <th>Қатысушы</th>
+                        <th>Рөлі</th>
+                        <th>Функциясы</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>ҚРҰБ, ҚНРДА, БҚДА</td>
+                        <td>Реттеушілер</td>
+                        <td>Жобаның дамуын бақылау</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Қаржы ұйымдары</td>
+                        <td>API жеткізуші</td>
+                        <td>Ашық API ұсыну</td>
+                    </tr>
+                    <!-- Басқа қатысушыларды қосыңыз -->
+                </tbody>
+            </table>
+
+            <h2>Пилоттық жобалар:</h2>
+            <p>Қазақстанда бірнеше пилоттық жобалар іске асырылды, соның ішінде:</p>
+            <ul>
+                <li><strong>Клиент шоттарын біріктіру:</strong> Бір қосымшада әртүрлі банктердегі шоттар туралы ақпаратты көру.</li>
+                <li><strong>Банкаралық QR-төлемдер:</strong> Бірыңғай QR-код арқылы төлем жасау.</li>
+            </ul>
+
+            <div class="api-demo">
+                <h3>API Демонстрациясы (Имитация)</h3>
+                <button id="apiRequestButton">API Сұранысын Көрсету</button>
+                <h4>Сұраныс (Request):</h4>
+                <pre id="apiRequest">
+// GET /accounts/{user_id}/balance
+// Host: bank-api.kz
+// Authorization: Bearer {token}
+                </pre>
+                <h4>Жауап (Response):</h4>
+                <pre id="apiResponse" style="display:none;">
+{
+  "status": "success",
+  "data": {
+    "account_id": "KZ1234567890123456",
+    "balance": 150000.75,
+    "currency": "KZT",
+    "last_updated": "2024-05-10T12:30:00Z"
+  }
+}
+                </pre>
+            </div>
+
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 Нұрсұлу. Дипломдық жұмыс материалдары.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
