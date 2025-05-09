@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Киберқауіпсіздік</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <!-- index.html-дағы nav мазмұнын көшіріп қойыңыз -->
+            <ul>
+                <li><a href="index.html">Басты бет</a></li>
+                <li><a href="digitalization-basics.html">Цифрландыру негіздері</a></li>
+                <li><a href="kazakhstan-stages.html">Қазақстандағы кезеңдер</a></li>
+                <li class="dropdown">
+                    <a href="javascript:void(0)" class="dropbtn">Негізгі трендтер</a>
+                    <div class="dropdown-content">
+                        <a href="open-api.html">Open API & Open Banking</a>
+                        <a href="ai-blockchain.html">AI & Blockchain</a>
+                        <a href="digital-tenge.html">Цифрлық теңге</a>
+                        <a href="cybersecurity.html">Киберқауіпсіздік</a>
+                    </div>
+                </li>
+                <li><a href="international-experience.html">Халықаралық тәжірибе</a></li>
+                <li><a href="recommendations.html">Ұсыныстар</a></li>
+                <li><a href="about-project.html">Жоба туралы</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h1>Цифрландыру жағдайындағы киберқауіпсіздік</h1>
+            <p>Цифрлық технологиялардың дамуымен қатар киберқауіптер де артып келеді. Банктер клиенттердің деректері мен қаражаттарын қорғау үшін кешенді шаралар қабылдауы тиіс.</p>
+
+            <h2>Негізгі қауіптер (2.5-бөлімнен):</h2>
+            <ul>
+                <li><strong>DeepFake технологиясы:</strong> Суреттерді, бейнелерді немесе аудиофайлдарды қолдан жасау арқылы алаяқтық.</li>
+                <li><strong>Жалған мобильді қосымшалар:</strong> Банктердің ресми қосымшаларын еліктеп, деректерді ұрлау.</li>
+                <li><strong>Фишинг және әлеуметтік инженерия.</strong></li>
+                <li><strong>Open API-ге шабуылдар.</strong></li>
+            </ul>
+
+            <h2>Қазақстандағы Алаяқтыққа қарсы орталық</h2>
+            <p>Ұлттық Банк 2024 жылы «Алаяқтыққа қарсы орталық» қызметін іске қосты. Мақсаты - қаржы нарығы субъектілері мен құқық қорғау органдары арасында алаяқтық белгілері бар төлем операциялары бойынша деректермен жедел алмасу.</p>
+            <img src="images/anti-fraud-center-diagram.png" alt="Алаяқтыққа қарсы орталық схемасы" style="width:100%; max-width:600px; margin:15px 0;">
+            <p><em>(Диаграммада орталықтың банктермен, ІІМ-мен, ҰҚК МТҚ-мен және басқа да қатысушылармен өзара әрекеттесуі көрсетілуі мүмкін)</em></p>
+            
+            <h2>Алаяқтық схемалары (Демо)</h2>
+            <div class="fraud-scheme">
+                <h3 class="toggle-fraud">Жалған қоңырау (банк қызметкері атынан) <span class="arrow">▼</span></h3>
+                <div class="fraud-details">
+                    <p><strong>Сипаттамасы:</strong> Алаяқтар банк қызметкері немесе қауіпсіздік қызметінің өкілі болып қоңырау шалып, шотта күмәнді операциялар байқалғанын айтып, карта деректерін, SMS-кодты немесе жеке кабинетке кіру логині мен паролін сұрайды.</p>
+                    <p><strong>Қорғану жолы:</strong> Ешқашан телефон арқылы карта деректерін, CVC/CVV кодын, SMS-кодты, логин мен парольді айтпаңыз. Күмәнді қоңырау түссе, тұтқаны қойып, банктің ресми нөміріне өзіңіз хабарласыңыз.</p>
+                </div>
+            </div>
+             <div class="fraud-scheme">
+                <h3 class="toggle-fraud">Жалған мобильді қосымша <span class="arrow">▼</span></h3>
+                <div class="fraud-details">
+                    <p><strong>Сипаттамасы:</strong> Алаяқтар танымал банктердің мобильді қосымшаларына ұқсас жалған қосымшалар жасайды. Олар SMS, мессенджерлер немесе жарнама арқылы таратылуы мүмкін. Қолданушы мұндай қосымшаға өз деректерін енгізгенде, олар алаяқтардың қолына түседі.</p>
+                    <p><strong>Қорғану жолы:</strong> Мобильді қосымшаларды тек ресми дүкендерден (App Store, Google Play) жүктеңіз. Әзірлеушінің атауына және пікірлерге назар аударыңыз.</p>
+                </div>
+            </div>
+
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 Нұрсұлу. Дипломдық жұмыс материалдары.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
